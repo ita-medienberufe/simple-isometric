@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>Isometric Game (Demo)</title>
+<script src="SimpleIsometric.js"></script>
+</head>
+
+<!-- Imlementierung der Funktionen siehe SimpleIsometric.js -->
+<body onload="init();zeichneFeld();">
+
+<!-- Abmessungen des Spielfelds bei Bedarf anpassen -->
+<canvas id="spielfeld" width="600" height="400">
+	Looks like canvas is not supported in your browser!
+</canvas>
+<br>
+
+<!-- weitere Bewegungsrichtungen müssen Sie selbst implementieren -->
+<input type="button" value="up" onclick="moveUp()">
+
+</body>
+</html>
